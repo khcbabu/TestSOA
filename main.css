@@ -52,6 +52,28 @@ header, section, footer, nav, article, aside, hgroup{
  
 }
 
+#search_text{
+	float: right;
+	display: block;
+	width: 200px;
+	color: red;
+	text-align: right;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+
+/*#banner{
+	float: left;
+/*	position: relative;*!/
+}*/
+
+#slide1_container {
+	display: block;
+	width:1000px;
+	height:281px;
+	overflow:hidden;
+	position:relative;
+}
 
 #main_nav {
   background-color:#2C5463;
