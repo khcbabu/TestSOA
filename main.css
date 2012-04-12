@@ -28,6 +28,17 @@ header, section, footer, nav, article, aside, hgroup{
 	position: absolute;
 }*/
 
+#logo{
+    float:left;
+    background-color:White;
+    width:164px;
+    height:80px;
+}
+
+#topimage{
+    background-color:White;
+}
+
 #head_nav {
 /*  background-color:#2C5463;*/
 	text-decoration: none;
