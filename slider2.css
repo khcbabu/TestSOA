@@ -1,3 +1,9 @@
+#slide1_container {
+	width:950px;
+	height:281px;
+	overflow:hidden;
+	position:relative;
+}
 .slideshow-example-frame {
 		-moz-border-radius: 7px;
 		-webkit-border-radius: 7px;
@@ -5,9 +11,10 @@
 		-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 		-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
-		width:800px;
-		height:300px;
-		margin:30px 30px 30px 22px;
+		width:500px;
+		height:150px;
+        margin:30px 30px 30px 22px;
+
 	}
 
 	.slideshow-example-frame img {
