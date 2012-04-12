@@ -17,7 +17,7 @@ header, section, footer, nav, article, aside, hgroup{
 
 #top_header{
 	background: black;
-	margin: 0 auto;
+	margin: 0px auto;
 	padding: 20px;
 	border: 1px solid #333cc;
 	text-align: left;
@@ -31,20 +31,25 @@ header, section, footer, nav, article, aside, hgroup{
 #logo{
     float:left;
     background-color:White;
-    width:164px;
-    height:80px;
+    width:200px;
+    height:65px;
+    display: block;
 }
 
 #topimage{
+	float: left;	
     background-color:White;
+    display: block;
+    width:464px;
+    height: 65px;
 }
 
 #head_nav {
 /*  background-color:#2C5463;*/
 	text-decoration: none;
-	height: 40px;
+	height: 30px;
   	color: #a5a5a5;
-  
+  	display: block;
 }
 
 #head_nav ul{
@@ -66,7 +71,7 @@ header, section, footer, nav, article, aside, hgroup{
 #search_text{
 	float: right;
 	display: block;
-	width: 200px;
+	width: 280px;
 	color: red;
 	text-align: right;
 	letter-spacing: 2px;
