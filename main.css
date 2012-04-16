@@ -7,6 +7,11 @@ header, section, footer, nav, article, aside, hgroup{
 	display: block;
 }
 
+body{
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
 
 #big_wrapper{
 	border: 1px solid black;
@@ -18,7 +23,7 @@ header, section, footer, nav, article, aside, hgroup{
 #top_header{
 	background: black;
 	margin: 0px auto;
-	padding: 20px;
+	padding: 0px 0px 20px 0px;
 	border: 1px solid #333cc;
 	text-align: left;
 	text-transform: uppercase;
@@ -33,13 +38,11 @@ header, section, footer, nav, article, aside, hgroup{
     background-color:White;
     width:200px;
     height:65px;
-    display: block;
 }
 
 #topimage{
 	float: left;	
     background-color:White;
-    display: block;
     width:464px;
     height: 65px;
 }
@@ -88,7 +91,7 @@ header, section, footer, nav, article, aside, hgroup{
 	width:1000px;
 	height:281px;
 	overflow:hidden;
-	position:relative;
+	position:relative;	
 }
 
 #main_nav {
@@ -109,6 +112,7 @@ header, section, footer, nav, article, aside, hgroup{
   display: block;
   position: relative;
   float: left;
+  z-index: 1;
  
 }
 #main_nav li ul{
