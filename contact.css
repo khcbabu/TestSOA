@@ -1,0 +1,27 @@
+h2{
+    background-color:#2C5463;
+    height:30px;
+    font: bold 11px tahoma;
+    display: block;
+    position:relative;
+    color:HighlightText;
+    padding:5px;
+}
+
+p{
+    font: bold 12px calibri;
+    display: block;
+    position:relative;
+    float:left;
+}
+
+#contactinfo{
+  text-align:left;
+    font: bold 15px calibri;
+}
+
+#subbutton{
+    background-color:#2C5463;
+    font:bold 15px calibri;
+    color:HighlightText;
+}

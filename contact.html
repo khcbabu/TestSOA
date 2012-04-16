@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="contact.css" />
+    </head>
+    <body>
+        <div id="big_wrapper">
+        <header id="top_header">
+		
+		<img id="logo" src="images/vergil_logo_final.gif" alt="Archives Made Easy" border="0"/>
+		<img id="topimage" src="images/top_image.jpg" width="504px" height="80px" border="0"/>
+		                
+			<nav id="head_nav">
+				<ul>
+				  <li><a href="Index.html" >Home</a></li>
+				  <li>|</li>
+				  <li><a href="about-us/default.htm" >About Us</a></li>
+				  <li>|</li>
+				  <li><a href="contact.html">Contact Us</a></li>
+				  <li>|</li>
+				  <li><a href="blog/default.htm" target="_blank">Blog</a></li>
+				  <li>|</li>
+				  <li><a href="careers/default.htm" >Careers</a></li>
+				  
+				</ul>
+				
+			</nav> 
+			
+			<input id="search_text" type="search" results="5" placeholder="Search"  maxlength="30" onsearch="startSearch()"/>
+			
+		</header>
+            <h2>CONTACT US</h2><br/>
+            <p>You can contact us easily by fulfilling the fields below and sending this form to SoaCloud9.</p><br/>            
+            <!--<p>The fields indicated with an asterisk (*) are required to complete this transaction.</p></br>-->
+            <br/>
+            <div id="contactinfo">
+            <form method="post" action="ProcessRequest.asp">           
+             Your Name:</br>
+             <input type="text" name="UserName"/><br/><br/>
+             Your MailID:<br/>
+             <input type="text" name="MailID"/><br/><br/>
+             Subject:<br/>
+             <input type="text" name="Subject"/><br/><br/>
+             Your Message: <br/>
+             <textarea name="Message" cols="45" rows="5"></textarea><br/><br/>
+             <input id="subbutton" type="submit"/>
+             </form>
+            </div>
+        
+    </body>
+</html>
