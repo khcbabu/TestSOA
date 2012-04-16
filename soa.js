@@ -12,3 +12,7 @@ function startSearch(){
 		alert(searchText);
 	}
 }
+
+function testMessage() {
+	alert("testing image click");
+}
