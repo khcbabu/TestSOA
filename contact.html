@@ -6,6 +6,7 @@
         <title></title>
         <link rel="stylesheet" href="main.css" />
         <link rel="stylesheet" href="contact.css" />
+        
     </head>
     <body>
         <div id="big_wrapper">
@@ -38,18 +39,45 @@
             <!--<p>The fields indicated with an asterisk (*) are required to complete this transaction.</p></br>-->
             <br/>
             <div id="contactinfo">
-            <form method="post" action="ProcessRequest.asp">           
-             Your Name:</br>
-             <input type="text" name="UserName"/><br/><br/>
-             Your MailID:<br/>
-             <input type="text" name="MailID"/><br/><br/>
-             Subject:<br/>
-             <input type="text" name="Subject"/><br/><br/>
-             Your Message: <br/>
-             <textarea name="Message" cols="45" rows="5"></textarea><br/><br/>
-             <input id="subbutton" type="submit"/>
+            <form method="post" action="mail.php">                        
+	             <fieldset id="contact_field">
+	             	<label for="name">Name:</label>
+	             	<input type="text" id="name" placeholder="Your name" required="required" />
+	             
+	             	<label for="email">Email:</label>
+	             	<input type="email" id="email" placeholder="example@soacloud9.com" />
+	             
+	             	<label for="subject">Subject:</label>
+	             	<input type="text" id="subject" placeholder="subject to filter your feedback" required="required" />
+	             
+	             	<label for="message">Message:</label>
+	             	<textarea id="message" placeholder="Write your comments"></textarea>
+	             
+	             	<input id="subbutton" type="submit" value="Send message" />
+	             
+	             </fieldset>
+             
              </form>
+             
             </div>
+            
+            <aside id="other_contact">
+            	<div>
+            		<h2>You can also make direct contact..</h2>
+            		<a href="http://www.facebook.com/soacloud9">Visit facebook Channel</a>
+            		
+            		<h3 id="tecnical_contact"> For Technical query</h3>
+            		<address>
+            		   <a href="mailto:pavani.vaka@soacloud9.com">Pavani Vaka</a>
+            		</address>
+            		
+            		<h3 id="business_contact"> For business and other query</h3>
+            		<address>
+            		   <a href="mailto:ajay@soacloud9.com">Ajay Sharma</a>
+            		</address>
+            		
+            	</div>
+            </aside>
         
     </body>
 </html>

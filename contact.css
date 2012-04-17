@@ -1,3 +1,17 @@
+
+#contactinfo {
+	float: left;
+	width: 430px; 
+/*	margin: 60px auto; */
+/*	padding: 60px 30px;*/
+	text-align:left;
+	font: bold 15px tahoma;
+}
+
+#contact_field{
+	padding-top: 30px;
+}
+
 h2{
     background-color:#2C5463;
     height:30px;
@@ -15,13 +29,50 @@ p{
     float:left;
 }
 
-#contactinfo{
-  text-align:left;
-    font: bold 15px calibri;
+label {
+	float: left; 
+	clear: left; 
+	margin: 11px 20px 0 0; 
+	width: 95px;
+	text-align: right; 
+	font: 16px bold tahoma;  
+	color: #445668;
+}
+
+input {
+	width: 260px; 
+	height: 35px; 
+	padding: 5px 20px 0px 20px; 
+	margin: 0 0 20px 0;
+}
+
+textarea {
+	width: 260px; 
+	height: 170px; 
+	padding: 12px 20px 0px 20px; 
+	margin: 0 0 20px 0;
+}
+
+input:focus, textarea:focus {
+	background: red;
 }
 
 #subbutton{
     background-color:#2C5463;
-    font:bold 15px calibri;
-    color:HighlightText;
+    font:bold 15px tahoma;
+    width: 185px; 
+    height: 52px; 
+    float: right; 
+    padding: 10px 15px; 
+    margin: 0 15px 0 0;
+    cursor: pointer;
 }
+
+#other_contact{
+	background: #66cccc;
+	float: left;
+	margin-left: 20px;
+	width: 220px;
+	padding: 30px;
+}
+
