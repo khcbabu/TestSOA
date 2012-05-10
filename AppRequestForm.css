@@ -1,4 +1,4 @@
-h2{    
+h2{
     height:30px;
     font: bold 11px tahoma;
     display: block;
@@ -6,17 +6,30 @@ h2{
     padding:5px;
 }
 
-#contactinfo{
-  text-align:left;
+
+h3{
     font: bold 15px calibri;
+}
+
+#apparticle{
+    float:left;
+    margin:10px 0px 20px 0px;
+    width:450px;
+    text-align:justify;
+}
+
+#Appcontactinfo{
+text-align:center;
+font: bold 15px calibri;
 }
 
 #subbutton{
     background-color:#2C5463;
     font:bold 15px calibri;
     color:HighlightText;
-    text-align:center;
+    float:none;
 }
+
 #main_footer{
 	clear: both;
 	text-align: center;
