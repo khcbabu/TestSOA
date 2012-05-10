@@ -169,6 +169,12 @@ header, section, footer, nav, article, aside, hgroup{
 	width: 300px;
 	text-align: justify;
 }
+#app_article{
+	margin: 30px;
+	float: left;
+	width: 600px;
+	text-align: justify;
+}
 
 #second_article{
 	margin: 30px;
@@ -178,11 +184,30 @@ header, section, footer, nav, article, aside, hgroup{
 }
 
 #side_news{
-	background: #66cccc;
+	/*background: #66cccc;*/
 	float: left;
 	margin: 20px 0px;
 	width: 220px;
 	padding: 30px;
+}
+
+#side_news #contactform{
+	background: #66cccc;
+    position: relative;
+	margin: 20px 0px;
+	width: 220px;
+	padding: 30px;
+    color: Red;
+}
+
+
+#side_news #latestupdate{
+	background: #66cccc;
+	position: relative;
+	margin: 20px 0px;
+	width: 220px;
+	padding: 30px;
+    color: Green;
 }
 
 #main_footer{
