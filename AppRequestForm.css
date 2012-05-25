@@ -7,9 +7,22 @@ h2{
 }
 
 
+
 h3{
     font: bold 15px calibri;
 }
+
+#news_update{
+    margin:10px 0px 20px 0px;
+    padding:10px;
+    border-bottom:1px;
+    border-bottom-style:dotted;
+ }
+
+ #news_letter{
+    border-bottom:1px;
+    border-bottom-style:dotted;
+ }
 
 #apparticle{
     float:left;
@@ -18,10 +31,17 @@ h3{
     text-align:justify;
 }
 
-#Appcontactinfo{
-text-align:center;
-font: bold 15px calibri;
+#contactform{
+   text-align:center;
+   font: bold 15px calibri;
+   border-bottom:1px;
+    border-bottom-style:dotted;
 }
+
+#testimonials{
+   border-bottom:1px;
+    border-bottom-style:dotted;
+ }
 
 #subbutton{
     background-color:#2C5463;

@@ -8,6 +8,7 @@ header, section, footer, nav, article, aside, hgroup{
 }
 
 
+
 #big_wrapper{
 	border: 1px solid black;
 	width: 1000px;
@@ -59,6 +60,7 @@ header, section, footer, nav, article, aside, hgroup{
 }
 
 
+
 #head_nav ul li {
   display: inline-block;
   position: relative;
@@ -103,6 +105,7 @@ header, section, footer, nav, article, aside, hgroup{
 }
 
 
+
 #main_nav ul li {
   display: block;
   position: relative;
@@ -126,6 +129,7 @@ header, section, footer, nav, article, aside, hgroup{
   text-align:center;
  
 }
+
 
 
 #main_nav ul li a:hover { 
@@ -188,26 +192,33 @@ header, section, footer, nav, article, aside, hgroup{
 	float: left;
 	margin: 20px 0px;
 	width: 220px;
-	padding: 30px;
+	
 }
 
 #side_news #contactform{
 	background: #66cccc;
     position: relative;
-	margin: 20px 0px;
+	margin: 0px 0px;
 	width: 220px;
-	padding: 30px;
+	
     color: Red;
+    border-top:1px;
+    border-top-style:dotted;
+    border-top-color:black;
+   
 }
-
-
 #side_news #latestupdate{
 	background: #66cccc;
 	position: relative;
-	margin: 20px 0px;
+	margin: 0px 0px;
 	width: 220px;
 	padding: 30px;
     color: Green;
+    border-bottom:1px;
+    border-bottom-style:dotted;
+    border-left:1px;
+    border-left-style:dotted;
+    border-left-color:black;
 }
 
 #main_footer{
